@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="256.0" prefWidth="278.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assami.javafxlearn.LearnController">
+    <bottom>
+        <VBox alignment="CENTER">
+            <Label text="This is bottom text" />
+            <Button onAction="#buttonTitle" text="This is button bottom" />
+        </VBox>
+    </bottom>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="this is my first label" />
+            <Label text="crated by: Assami Muzaki" />
+         </children>
+      </VBox>
+   </center>
+
+</BorderPane>
